@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <aside class="lateral">
+        <div class="opcao-menu flex-center">
+          <a id="botao" class="link flex-center" href="">
+            <div>
+              <h4>Opção</h4>
+            </div>
+          </a>
+        </div>
+        <div class="opcao-menu qtd">
+          <h4>Quantidade:</h4>
+          <input type="number" id="quantidade" min="0" />
+        </div>
+      </aside>
+      <div class="sub-menu none">
+        <select id="opcao">
+          <option selected disabled>Selecione</option>
+          <option value="1">A</option>
+          <option value="2">B</option>
+        </select>
+      </div>
+      <main class="conteudo"></main>
+    </div>
+    <script src="/javascripts/index.js"></script>
+  </body>
+</html>
